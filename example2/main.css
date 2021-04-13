@@ -1,0 +1,28 @@
+.form-row {
+    padding: 10px 0;
+    display: flex;
+}
+.form-row label {
+    padding-right: 10px;
+}
+.form-row input {
+    flex: 1;
+}
+.column-layout {
+    max-width: 1300px;
+    background-color: #FFF;
+    margin: 440px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+.main-column {
+    flex: 3;
+}
+.sidebar-one {
+    flex: 1;
+}
+.sidebar-two {
+    flex: 1;
+    order: 1;
+}
